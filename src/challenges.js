@@ -1,6 +1,10 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aqui
+function compareTrue(animal1, animal2) {
+  if(animal1 === true && animal2 === true) {
+    return true;
+  } else {
+    return false
+  }
 }
 
 // Desafio 2
