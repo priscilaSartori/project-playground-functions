@@ -82,17 +82,64 @@ function fizzBuzz(numeros) {
 }
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(phrase) {
+  let frase1 = [""];
+  let frase2 = ' ';
+  for (let letter of phrase) {
+    if (letter === 'a') {
+      frase1.push('1');
+    } else if (letter === 'e') {
+      frase1.push('2');
+    } else if (letter === 'i') {
+      frase1.push('3');
+    } else if (letter === 'o') {
+      frase1.push('4');
+    } else if (letter === 'u') {
+      frase1.push('5');
+    } else {
+      frase1.push(letter);
+    }
+  }
+  frase2 = frase1.join('');
+  return frase2;
 }
-function decode() {
-  // seu código aqui
+
+function decode(frase2) {
+  let frase3 = [""];
+  let frase4 = "";
+  for (let letter1 of frase2) {
+    if (letter1 === '1') {
+      frase3.push('a');
+    } else if (letter1 === '2') {
+      frase3.push('e');
+    } else if (letter1 === '3') {
+      frase3.push('i');
+    } else if (letter1 === '4') {
+      frase3.push('o');
+    } else if (letter1 === '5') {
+      frase3.push('u');
+    } else {
+      frase3.push(letter1);
+    }
+  }
+  frase4 = frase3.join('');
+  return frase4;
 }
 
 // Desafio 10
-function techList() {
-  // seu código aqui
-}
+function techList(array, string) {
+  let lista = {
+
+  }
+  for (let index = 0; index <= array.length; array += 1) {
+    if (array[index] == [' ']) {
+      lista = "Vazio!";
+    } else {
+      lista['name'] = {string}
+      lista['tech'] = {index};
+    }
+    } return lista
+  } 
 
 module.exports = {
   calcArea,
