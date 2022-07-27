@@ -128,18 +128,22 @@ function decode(frase2) {
 
 // Desafio 10
 function techList(array, string) {
-  let lista = {
-
-  }
-  for (let index = 0; index <= array.length; array += 1) {
-    if (array[index] == [' ']) {
-      lista = "Vazio!";
-    } else {
-      lista['name'] = {string}
-      lista['tech'] = {index};
+  if (array == 0) {
+    return "Vazio!";
+  } else {
+    let tecnologia2 = [];
+    let array2 = array.sort();
+    for (let tec in array2) {
+      let tecnologia = 
+      {
+      "name": string,
+      "tech": array[tec],  
     }
-    } return lista
-  } 
+    tecnologia2.push(tecnologia);
+  }          
+  return tecnologia2;
+}
+}
 
 module.exports = {
   calcArea,
@@ -153,4 +157,4 @@ module.exports = {
   highestCount,
   splitSentence,
   techList,
-};
+}
