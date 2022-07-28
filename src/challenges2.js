@@ -55,11 +55,24 @@ function triangleCheck(lineA, lineB, LineC) {
 }
 
 // Desafio 13
-function hydrate() {
-  // seu código aqui
+function hydrate(string) {
+let reg = /\d+/g;
+let result = string.match(reg);
+let copo = 0;
+for (let index = 0; index < result.length; index += 1){
+  copo += parseInt(result[index]); 
 }
 
-module.exports = {
+if (copo === 1) {
+  return copo + ' copo de água';
+} else {
+  return copo + ' copos de água';
+  }
+}
+
+
+
+  module.exports = {
   generatePhoneNumber,
   hydrate,
   triangleCheck,
