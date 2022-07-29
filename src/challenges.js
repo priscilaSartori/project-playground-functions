@@ -127,19 +127,19 @@ function decode(frase2) {
 // Desafio 10
 function techList(array, string) {
   if (array === 0) {
-    return "Vazio!";
+    return 'Vazio!';
   } else {
     let tecnologia2 = [''];
     let array2 = array.sort();
     for (let tec in array2) {
-        let tecnologia = {
+      let tecnologia = {
         'name': string,
         'tech': array[tec],
       };
       tecnologia2.push(tecnologia);
     }
     return tecnologia2;
-  };
+  }
 }
 
 module.exports = {
