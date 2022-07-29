@@ -34,6 +34,7 @@ function generatePhoneNumber(numeros) {
   };
 }
 
+
 // Desafio 12
 function triangleCheck(lineA, lineB, LineC) {
   let soma;
@@ -52,6 +53,9 @@ function triangleCheck(lineA, lineB, LineC) {
 
   if (soma === 'sim' && diferenca === 'sim') {
     return true;
+  } else {
+    return false;
+  }
 }
 
 // Desafio 13

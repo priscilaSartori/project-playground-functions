@@ -126,10 +126,10 @@ function decode(frase2) {
 
 // Desafio 10
 function techList(array, string) {
-  if (array === 0) {
+  if (array == 0) {
     return 'Vazio!';
   } else {
-    let tecnologia2 = [''];
+    let tecnologia2 = [];
     let array2 = array.sort();
     for (let tec in array2) {
       let tecnologia = {
