@@ -2,7 +2,7 @@
 function generatePhoneNumber(numeros) {
   let repetido = [];
   let contNumero = 0;
-  let telefone = '('+numeros[0]+numeros[1]+') '+numeros[2]+numeros[3]+numeros[4]+numeros[5]+numeros[6]+'-'+numeros[7]+numeros[8]+numeros[9]+numeros[10];
+  let telefone = '(' + numeros[0] + numeros[1] + ') ' + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6] + '-' + numeros[7] + numeros[8] + numeros[9] + numeros[10];
   let test2;
 
     for (let index = 0; index <= numeros.length; index += 1) {
