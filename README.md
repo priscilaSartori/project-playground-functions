@@ -15,7 +15,7 @@ No seu time de desenvolvimento, você ficou responsável por implementar o códi
 
   1. Clone o repositório
 
-  - Use o comando: `git clone git@github.com:priscilaSartori/project-tryunfo.git`.
+  - Use o comando: `git clone git@github.com:priscilaSartori/project-playground-functions.git`.
   - Entre na pasta do repositório que você acabou de clonar:
     - `cd project-tryunfo`
 
