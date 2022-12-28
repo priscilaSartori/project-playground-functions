@@ -1,140 +1,27 @@
 # Boas-vindas ao repositório do Projeto Playground Functions!
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver **qualquer dúvida** nos envie no _Slack_ da turma! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do [Código de Conduta e do Manual da Pessoa Estudante da Trybe](https://app.betrybe.com/manual-estudante/codigo-de-etica-e-conduta).
-
-# Entregáveis
-
-<details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
-
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
-
-  :warning: **É importante que os arquivos não tenham o nome alterado!** :warning:
-
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-</details>
+Projeto de avaliação feito durante o curso da Trybe.
 
 <details>
   <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
 
 No seu time de desenvolvimento, você ficou responsável por implementar o código de funções que resolvem problemas com respostas pré-determinadas. Você pode utilizar a lógica de programação para te ajudar na análise de cada problema e resposta esperada, facilitando a implementação do código de cada uma das funções.
-
-
-</details>
-
-
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-  
-  * Este projeto é individual
-  * Será `1` dias de projeto
-  * Data para entrega final do projeto: `02/08/2022 14:00`
-
 </details>
 
 # Orientações
 
 <details>
-  <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
+  <summary><strong>Para acessar o projeto</strong></summary><br />
 
   1. Clone o repositório
 
-  - Use o comando: `git clone git@github.com:tryber/sd-025-b-project-playground-functions.git`
+  - Use o comando: `git clone git@github.com:priscilaSartori/project-tryunfo.git`.
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-025-b-project-playground-functions`
+    - `cd project-tryunfo`
 
   2. Instale as dependências
 
-  - `npm install`
-
-  3. Crie uma branch a partir da branch `main`
-
-  - Verifique que você está na branch `main`
-    - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `main`
-    - Exemplo: `git checkout main`
-  - Crie uma branch à qual você vai submeter os `commits` de seu projeto
-    - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-sd-025-b-project-playground-functions`
-
-  4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-  - Verifique que as mudanças ainda não estão no _stage_
-    - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-  - Adicione o novo arquivo ao _stage_ do Git
-    - Exemplo:
-      - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-      - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-  - Faça o `commit` inicial
-    - Exemplo:
-      - `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-      - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-  - Usando o exemplo anterior: `git push -u origin joaozinho-sd-025-b-project-playground-functions`
-
-  6. Crie um novo `Pull Request` _(PR)_
-
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-025-b-project-playground-functions/pulls)
-  - Clique no botão verde _"New pull request"_
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  - Adicione uma descrição para o Pull Request, um título que o identifique, e clique no botão verde "Create pull request". Crie da seguinte forma: `[JOAOZINHO] Projeto Playground Functions`
-  - Adicione uma descrição para o Pull Request, um título claro que o identifique, e clique no botão verde _"Create pull request"_
-  - **Não se preocupe em preencher mais nada por enquanto!**
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-025-b-project-playground-functions/pulls) e confira que o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-  - Faça `commits` das alterações que você fizer no código regularmente pois assim você treina essa prática para o mercado de trabalho 😄 ;
-
-  - Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto;
-
-  - Os comandos que você utilizará com mais frequência são:
-
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-
-    4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
-
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
-
-  - Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-    - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-    - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário** ;
-
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-025-b`.
-
-  Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-  Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
-
+  - `npm install`.
 </details>
 
 <details>
@@ -213,41 +100,7 @@ Se a análise do `ESLint` encontrar problemas no seu código, tais problemas ser
 
 </details>
 
-<details>
-  <summary><strong>🔗 Links auxiliares para o desenvolvimento
-do projeto</strong></summary><br />
-
-- Lembrem-se que como pessoas desenvolvedoras devemos fazer pesquisas e garimpar resultados para auxiliar no entendimento do assunto. Assim, para solucionar os requisitos do projeto é inevitável e estimulado que pesquisas sejam feitas nas mais variadas fontes (plataforma da trybe, google, youtube, etc) sempre tomando cuidado para utilizar fontes **confiáveis** nas pesquisas da Internet, como por exemplo:
-  
-  - [JavaScript.com](http://javascript.com/)
-
-  - [W3Schools](https://www.w3schools.com/js/default.asp)
-
-  - [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
-  - [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
-
-</details>
-
-<details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. 
-**Leva menos de 3 minutos!**
-
-Link: [Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
 # Requisitos Obrigatórios
-:warning: **Leia todos os requisitos atentamente e siga à risca o que for pedido. Não altere o nome de nenhuma função** :warning:
 
 ## 1 - Crie uma função usando o operador &&
 
