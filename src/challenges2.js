@@ -2,20 +2,20 @@
 function generatePhoneNumber(numeros) {
   let repetido = [];
   let contNumero = 0;
-  let telefone = '(' + numeros[0] + numeros[1] + ') ' + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6] + '-' + numeros[7] + numeros[8] + numeros[9] + numeros[10];
+  let telefone = `(${numeros[0]}${numeros[1]}) ${numeros[2]}${numeros[3]}${numeros[4]}${numeros[5]}${numeros[6]}-${numeros[7]}${numeros[8]}${numeros[9]}${numeros[10]}`;
   let test2;
 
-    for (let index = 0; index <= numeros.length; index += 1) {
-      if (numeros[index] < 0 || numeros[index] > 9) {
+  for (let index = 0; index <= numeros.length; index += 1) {
+    if (numeros[index] < 0 || numeros[index] > 9) {
       test2 = 'menor';
-    };
+    }
   }
 
   for (let index2 = 0; index2 <= numeros.length; index2 += 1) {
     for (let index3 = 0; index3 <= numeros.length; index3 += 1) {
       if (numeros[index2] === numeros[index3]) {
-      contNumero += 1;
-      };
+        contNumero += 1;
+      }
     }
     if (contNumero >= 3) {
       repetido.push(numeros[index2]);
@@ -25,15 +25,13 @@ function generatePhoneNumber(numeros) {
 
   if (numeros.length !== 11) {
     return 'Array com tamanho incorreto.';
-  } else if(test2 === 'menor') {
+  } if (test2 === 'menor') {
     return 'não é possível gerar um número de telefone com esses valores';
-  } else if(repetido.length !== 0 ) {
+  } if (repetido.length !== 0) {
     return 'não é possível gerar um número de telefone com esses valores';
-  } else {
-    return telefone;
-  };
+  }
+  return telefone;
 }
-
 
 // Desafio 12
 function triangleCheck(lineA, lineB, LineC) {
@@ -53,9 +51,8 @@ function triangleCheck(lineA, lineB, LineC) {
 
   if (soma === 'sim' && diferenca === 'sim') {
     return true;
-  } else {
-    return false;
   }
+  return false;
 }
 
 // Desafio 13
@@ -68,10 +65,9 @@ function hydrate(string) {
   }
 
   if (copo === 1) {
-    return copo + ' copo de água';
-  } else {
-    return copo + ' copos de água';
-  };
+    return `${copo} copo de água`;
+  }
+  return `${copo} copos de água`;
 }
 
 module.exports = {

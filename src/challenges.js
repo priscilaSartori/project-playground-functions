@@ -19,7 +19,7 @@ function splitSentence(phrase) {
 
 // Desafio 4
 function concatName(array) {
-  let concatenado = array[array.length-1] + ', ' + array[0];
+  let concatenado = `${array[array.length - 1]}, ${array[0]}`;
   return concatenado;
 }
 
@@ -58,17 +58,16 @@ function catAndMouse(mouse, cat1, cat2) {
   }
   if (gato1 < gato2) {
     return 'cat1';
-  } else if (gato2 < gato1) {
+  } if (gato2 < gato1) {
     return 'cat2';
-  } else {
-    return 'os gatos trombam e o rato foge';
   }
+  return 'os gatos trombam e o rato foge';
 }
 
 // Desafio 8
 function fizzBuzz(numeros) {
   let div = [];
-  for (let index = 0; index <= numeros.length-1; index += 1) {
+  for (let index = 0; index <= numeros.length - 1; index += 1) {
     if (numeros[index] % 3 === 0 && numeros[index] % 5 === 0) {
       div.push('fizzBuzz');
     } else if (numeros[index] % 3 === 0) {
@@ -128,18 +127,17 @@ function decode(frase2) {
 function techList(array, string) {
   if (array == 0) {
     return 'Vazio!';
-  } else {
-    let tecnologia2 = [];
-    let array2 = array.sort();
-    for (let tec in array2) {
-      let tecnologia = {
-        'name': string,
-        'tech': array[tec],
-      };
-      tecnologia2.push(tecnologia);
-    }
-    return tecnologia2;
   }
+  let tecnologia2 = [];
+  let array2 = array.sort();
+  for (let tec in array2) {
+    let tecnologia = {
+      name: string,
+      tech: array[tec],
+    };
+    tecnologia2.push(tecnologia);
+  }
+  return tecnologia2;
 }
 
 module.exports = {
